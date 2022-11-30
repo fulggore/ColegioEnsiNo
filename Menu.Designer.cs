@@ -28,317 +28,252 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnApagarAluno = new System.Windows.Forms.Button();
-            this.btnAlterarAluno = new System.Windows.Forms.Button();
-            this.btnConsultarAluno = new System.Windows.Forms.Button();
-            this.btnInserirAluno = new System.Windows.Forms.Button();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnApagarProfessor = new System.Windows.Forms.Button();
-            this.btnAlterarProfessor = new System.Windows.Forms.Button();
-            this.btnConsultarProfessor = new System.Windows.Forms.Button();
-            this.btnInserirProfessor = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.btnApagarFuncionario = new System.Windows.Forms.Button();
-            this.btnInserirFuncionario = new System.Windows.Forms.Button();
-            this.btnAlterarFuncionario = new System.Windows.Forms.Button();
-            this.btnConsultarFuncionario = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.btnApagarSecretaria = new System.Windows.Forms.Button();
-            this.btnInserirSecretaria = new System.Windows.Forms.Button();
-            this.btnAlterarSecretaria = new System.Windows.Forms.Button();
-            this.btnConsultarSecretaria = new System.Windows.Forms.Button();
-            this.btnSair = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mENUPRINCIPALToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alunosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.professoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.secretariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cadastrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.apagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.inserirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.apagarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.inserirToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.apagarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.inserirToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.consultarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.apagarToolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // menuStrip1
             // 
-            this.pictureBox1.Image = global::ColegioEnsiNo.Properties.Resources.logo;
-            this.pictureBox1.Location = new System.Drawing.Point(55, 23);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(88, 83);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mENUPRINCIPALToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
             // 
-            // groupBox1
+            // mENUPRINCIPALToolStripMenuItem
             // 
-            this.groupBox1.Controls.Add(this.btnApagarAluno);
-            this.groupBox1.Controls.Add(this.btnAlterarAluno);
-            this.groupBox1.Controls.Add(this.btnConsultarAluno);
-            this.groupBox1.Controls.Add(this.btnInserirAluno);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(55, 155);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(236, 118);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ALUNOS";
+            this.mENUPRINCIPALToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.alunosToolStripMenuItem,
+            this.professoresToolStripMenuItem,
+            this.funcionáriosToolStripMenuItem,
+            this.secretariaToolStripMenuItem,
+            this.toolStripMenuItem1,
+            this.sairToolStripMenuItem});
+            this.mENUPRINCIPALToolStripMenuItem.Name = "mENUPRINCIPALToolStripMenuItem";
+            this.mENUPRINCIPALToolStripMenuItem.Size = new System.Drawing.Size(113, 20);
+            this.mENUPRINCIPALToolStripMenuItem.Text = "MENU PRINCIPAL";
             // 
-            // btnApagarAluno
+            // alunosToolStripMenuItem
             // 
-            this.btnApagarAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagarAluno.Location = new System.Drawing.Point(120, 73);
-            this.btnApagarAluno.Name = "btnApagarAluno";
-            this.btnApagarAluno.Size = new System.Drawing.Size(111, 33);
-            this.btnApagarAluno.TabIndex = 3;
-            this.btnApagarAluno.Text = "APAGAR";
-            this.btnApagarAluno.UseVisualStyleBackColor = true;
+            this.alunosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cadastrarToolStripMenuItem,
+            this.consultarToolStripMenuItem,
+            this.alterarToolStripMenuItem,
+            this.apagarToolStripMenuItem});
+            this.alunosToolStripMenuItem.Name = "alunosToolStripMenuItem";
+            this.alunosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alunosToolStripMenuItem.Text = "&Alunos";
             // 
-            // btnAlterarAluno
+            // professoresToolStripMenuItem
             // 
-            this.btnAlterarAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterarAluno.Location = new System.Drawing.Point(6, 73);
-            this.btnAlterarAluno.Name = "btnAlterarAluno";
-            this.btnAlterarAluno.Size = new System.Drawing.Size(109, 33);
-            this.btnAlterarAluno.TabIndex = 2;
-            this.btnAlterarAluno.Text = "ALTERAR";
-            this.btnAlterarAluno.UseVisualStyleBackColor = true;
+            this.professoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inserirToolStripMenuItem,
+            this.consultarToolStripMenuItem1,
+            this.alterarToolStripMenuItem1,
+            this.apagarToolStripMenuItem1});
+            this.professoresToolStripMenuItem.Name = "professoresToolStripMenuItem";
+            this.professoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.professoresToolStripMenuItem.Text = "&Professores";
             // 
-            // btnConsultarAluno
+            // funcionáriosToolStripMenuItem
             // 
-            this.btnConsultarAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarAluno.Location = new System.Drawing.Point(121, 34);
-            this.btnConsultarAluno.Name = "btnConsultarAluno";
-            this.btnConsultarAluno.Size = new System.Drawing.Size(109, 33);
-            this.btnConsultarAluno.TabIndex = 1;
-            this.btnConsultarAluno.Text = "CONSULTAR";
-            this.btnConsultarAluno.UseVisualStyleBackColor = true;
+            this.funcionáriosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inserirToolStripMenuItem1,
+            this.consultarToolStripMenuItem2,
+            this.alterarToolStripMenuItem2,
+            this.apagarToolStripMenuItem2});
+            this.funcionáriosToolStripMenuItem.Name = "funcionáriosToolStripMenuItem";
+            this.funcionáriosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.funcionáriosToolStripMenuItem.Text = "&Funcionários";
             // 
-            // btnInserirAluno
+            // secretariaToolStripMenuItem
             // 
-            this.btnInserirAluno.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInserirAluno.Location = new System.Drawing.Point(6, 34);
-            this.btnInserirAluno.Name = "btnInserirAluno";
-            this.btnInserirAluno.Size = new System.Drawing.Size(109, 33);
-            this.btnInserirAluno.TabIndex = 0;
-            this.btnInserirAluno.Text = "INSERIR";
-            this.btnInserirAluno.UseVisualStyleBackColor = true;
+            this.secretariaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.inserirToolStripMenuItem2,
+            this.consultarToolStripMenuItem3,
+            this.alterarToolStripMenuItem3,
+            this.apagarToolStripMenuItem3});
+            this.secretariaToolStripMenuItem.Name = "secretariaToolStripMenuItem";
+            this.secretariaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.secretariaToolStripMenuItem.Text = "&Secretaria";
             // 
-            // groupBox2
+            // toolStripMenuItem1
             // 
-            this.groupBox2.Controls.Add(this.btnApagarProfessor);
-            this.groupBox2.Controls.Add(this.btnAlterarProfessor);
-            this.groupBox2.Controls.Add(this.btnConsultarProfessor);
-            this.groupBox2.Controls.Add(this.btnInserirProfessor);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(306, 155);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(236, 118);
-            this.groupBox2.TabIndex = 0;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "PROFESSORES";
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
             // 
-            // btnApagarProfessor
+            // sairToolStripMenuItem
             // 
-            this.btnApagarProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagarProfessor.Location = new System.Drawing.Point(121, 73);
-            this.btnApagarProfessor.Name = "btnApagarProfessor";
-            this.btnApagarProfessor.Size = new System.Drawing.Size(109, 33);
-            this.btnApagarProfessor.TabIndex = 7;
-            this.btnApagarProfessor.Text = "APAGAR";
-            this.btnApagarProfessor.UseVisualStyleBackColor = true;
+            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.sairToolStripMenuItem.Text = "Sai&r";
             // 
-            // btnAlterarProfessor
+            // cadastrarToolStripMenuItem
             // 
-            this.btnAlterarProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterarProfessor.Location = new System.Drawing.Point(6, 73);
-            this.btnAlterarProfessor.Name = "btnAlterarProfessor";
-            this.btnAlterarProfessor.Size = new System.Drawing.Size(108, 33);
-            this.btnAlterarProfessor.TabIndex = 6;
-            this.btnAlterarProfessor.Text = "ALTERAR";
-            this.btnAlterarProfessor.UseVisualStyleBackColor = true;
+            this.cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
+            this.cadastrarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cadastrarToolStripMenuItem.Text = "Inserir";
             // 
-            // btnConsultarProfessor
+            // consultarToolStripMenuItem
             // 
-            this.btnConsultarProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarProfessor.Location = new System.Drawing.Point(120, 34);
-            this.btnConsultarProfessor.Name = "btnConsultarProfessor";
-            this.btnConsultarProfessor.Size = new System.Drawing.Size(110, 33);
-            this.btnConsultarProfessor.TabIndex = 5;
-            this.btnConsultarProfessor.Text = "CONSULTAR";
-            this.btnConsultarProfessor.UseVisualStyleBackColor = true;
+            this.consultarToolStripMenuItem.Name = "consultarToolStripMenuItem";
+            this.consultarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem.Text = "Consultar";
             // 
-            // btnInserirProfessor
+            // alterarToolStripMenuItem
             // 
-            this.btnInserirProfessor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInserirProfessor.Location = new System.Drawing.Point(6, 34);
-            this.btnInserirProfessor.Name = "btnInserirProfessor";
-            this.btnInserirProfessor.Size = new System.Drawing.Size(108, 33);
-            this.btnInserirProfessor.TabIndex = 4;
-            this.btnInserirProfessor.Text = "INSERIR";
-            this.btnInserirProfessor.UseVisualStyleBackColor = true;
+            this.alterarToolStripMenuItem.Name = "alterarToolStripMenuItem";
+            this.alterarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alterarToolStripMenuItem.Text = "Alterar";
             // 
-            // groupBox3
+            // apagarToolStripMenuItem
             // 
-            this.groupBox3.Controls.Add(this.btnApagarFuncionario);
-            this.groupBox3.Controls.Add(this.btnInserirFuncionario);
-            this.groupBox3.Controls.Add(this.btnAlterarFuncionario);
-            this.groupBox3.Controls.Add(this.btnConsultarFuncionario);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(55, 295);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(236, 121);
-            this.groupBox3.TabIndex = 0;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "FUNCIONÁRIOS";
+            this.apagarToolStripMenuItem.Name = "apagarToolStripMenuItem";
+            this.apagarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.apagarToolStripMenuItem.Text = "Apagar";
             // 
-            // btnApagarFuncionario
+            // inserirToolStripMenuItem
             // 
-            this.btnApagarFuncionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagarFuncionario.Location = new System.Drawing.Point(120, 72);
-            this.btnApagarFuncionario.Name = "btnApagarFuncionario";
-            this.btnApagarFuncionario.Size = new System.Drawing.Size(110, 33);
-            this.btnApagarFuncionario.TabIndex = 7;
-            this.btnApagarFuncionario.Text = "APAGAR";
-            this.btnApagarFuncionario.UseVisualStyleBackColor = true;
+            this.inserirToolStripMenuItem.Name = "inserirToolStripMenuItem";
+            this.inserirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.inserirToolStripMenuItem.Text = "Inserir";
             // 
-            // btnInserirFuncionario
+            // consultarToolStripMenuItem1
             // 
-            this.btnInserirFuncionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInserirFuncionario.Location = new System.Drawing.Point(6, 33);
-            this.btnInserirFuncionario.Name = "btnInserirFuncionario";
-            this.btnInserirFuncionario.Size = new System.Drawing.Size(108, 33);
-            this.btnInserirFuncionario.TabIndex = 4;
-            this.btnInserirFuncionario.Text = "INSERIR";
-            this.btnInserirFuncionario.UseVisualStyleBackColor = true;
+            this.consultarToolStripMenuItem1.Name = "consultarToolStripMenuItem1";
+            this.consultarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem1.Text = "Consultar";
             // 
-            // btnAlterarFuncionario
+            // alterarToolStripMenuItem1
             // 
-            this.btnAlterarFuncionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterarFuncionario.Location = new System.Drawing.Point(6, 72);
-            this.btnAlterarFuncionario.Name = "btnAlterarFuncionario";
-            this.btnAlterarFuncionario.Size = new System.Drawing.Size(108, 33);
-            this.btnAlterarFuncionario.TabIndex = 6;
-            this.btnAlterarFuncionario.Text = "ALTERAR";
-            this.btnAlterarFuncionario.UseVisualStyleBackColor = true;
+            this.alterarToolStripMenuItem1.Name = "alterarToolStripMenuItem1";
+            this.alterarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.alterarToolStripMenuItem1.Text = "Alterar";
             // 
-            // btnConsultarFuncionario
+            // apagarToolStripMenuItem1
             // 
-            this.btnConsultarFuncionario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarFuncionario.Location = new System.Drawing.Point(120, 33);
-            this.btnConsultarFuncionario.Name = "btnConsultarFuncionario";
-            this.btnConsultarFuncionario.Size = new System.Drawing.Size(110, 33);
-            this.btnConsultarFuncionario.TabIndex = 5;
-            this.btnConsultarFuncionario.Text = "CONSULTAR";
-            this.btnConsultarFuncionario.UseVisualStyleBackColor = true;
+            this.apagarToolStripMenuItem1.Name = "apagarToolStripMenuItem1";
+            this.apagarToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.apagarToolStripMenuItem1.Text = "Apagar";
             // 
-            // groupBox4
+            // inserirToolStripMenuItem1
             // 
-            this.groupBox4.Controls.Add(this.btnApagarSecretaria);
-            this.groupBox4.Controls.Add(this.btnInserirSecretaria);
-            this.groupBox4.Controls.Add(this.btnAlterarSecretaria);
-            this.groupBox4.Controls.Add(this.btnConsultarSecretaria);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(306, 295);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(236, 121);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "SECRETARIA";
+            this.inserirToolStripMenuItem1.Name = "inserirToolStripMenuItem1";
+            this.inserirToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.inserirToolStripMenuItem1.Text = "Inserir";
             // 
-            // btnApagarSecretaria
+            // consultarToolStripMenuItem2
             // 
-            this.btnApagarSecretaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApagarSecretaria.Location = new System.Drawing.Point(121, 72);
-            this.btnApagarSecretaria.Name = "btnApagarSecretaria";
-            this.btnApagarSecretaria.Size = new System.Drawing.Size(109, 33);
-            this.btnApagarSecretaria.TabIndex = 11;
-            this.btnApagarSecretaria.Text = "APAGAR";
-            this.btnApagarSecretaria.UseVisualStyleBackColor = true;
+            this.consultarToolStripMenuItem2.Name = "consultarToolStripMenuItem2";
+            this.consultarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem2.Text = "Consultar";
             // 
-            // btnInserirSecretaria
+            // alterarToolStripMenuItem2
             // 
-            this.btnInserirSecretaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInserirSecretaria.Location = new System.Drawing.Point(6, 33);
-            this.btnInserirSecretaria.Name = "btnInserirSecretaria";
-            this.btnInserirSecretaria.Size = new System.Drawing.Size(108, 33);
-            this.btnInserirSecretaria.TabIndex = 8;
-            this.btnInserirSecretaria.Text = "INSERIR";
-            this.btnInserirSecretaria.UseVisualStyleBackColor = true;
+            this.alterarToolStripMenuItem2.Name = "alterarToolStripMenuItem2";
+            this.alterarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.alterarToolStripMenuItem2.Text = "Alterar";
             // 
-            // btnAlterarSecretaria
+            // apagarToolStripMenuItem2
             // 
-            this.btnAlterarSecretaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterarSecretaria.Location = new System.Drawing.Point(6, 72);
-            this.btnAlterarSecretaria.Name = "btnAlterarSecretaria";
-            this.btnAlterarSecretaria.Size = new System.Drawing.Size(108, 33);
-            this.btnAlterarSecretaria.TabIndex = 10;
-            this.btnAlterarSecretaria.Text = "ALTERAR";
-            this.btnAlterarSecretaria.UseVisualStyleBackColor = true;
+            this.apagarToolStripMenuItem2.Name = "apagarToolStripMenuItem2";
+            this.apagarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.apagarToolStripMenuItem2.Text = "Apagar";
             // 
-            // btnConsultarSecretaria
+            // inserirToolStripMenuItem2
             // 
-            this.btnConsultarSecretaria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarSecretaria.Location = new System.Drawing.Point(121, 33);
-            this.btnConsultarSecretaria.Name = "btnConsultarSecretaria";
-            this.btnConsultarSecretaria.Size = new System.Drawing.Size(109, 33);
-            this.btnConsultarSecretaria.TabIndex = 9;
-            this.btnConsultarSecretaria.Text = "CONSULTAR";
-            this.btnConsultarSecretaria.UseVisualStyleBackColor = true;
+            this.inserirToolStripMenuItem2.Name = "inserirToolStripMenuItem2";
+            this.inserirToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.inserirToolStripMenuItem2.Text = "Inserir";
             // 
-            // btnSair
+            // consultarToolStripMenuItem3
             // 
-            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Location = new System.Drawing.Point(679, 405);
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(109, 33);
-            this.btnSair.TabIndex = 12;
-            this.btnSair.Text = "SAIR";
-            this.btnSair.UseVisualStyleBackColor = true;
+            this.consultarToolStripMenuItem3.Name = "consultarToolStripMenuItem3";
+            this.consultarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.consultarToolStripMenuItem3.Text = "Consultar";
+            // 
+            // alterarToolStripMenuItem3
+            // 
+            this.alterarToolStripMenuItem3.Name = "alterarToolStripMenuItem3";
+            this.alterarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.alterarToolStripMenuItem3.Text = "Alterar";
+            // 
+            // apagarToolStripMenuItem3
+            // 
+            this.apagarToolStripMenuItem3.Name = "apagarToolStripMenuItem3";
+            this.apagarToolStripMenuItem3.Size = new System.Drawing.Size(180, 22);
+            this.apagarToolStripMenuItem3.Text = "Apagar";
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSair);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Menu";
             this.Text = "Colégio EnsiNo";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button btnApagarAluno;
-        private System.Windows.Forms.Button btnAlterarAluno;
-        private System.Windows.Forms.Button btnConsultarAluno;
-        private System.Windows.Forms.Button btnInserirAluno;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Button btnApagarProfessor;
-        private System.Windows.Forms.Button btnAlterarProfessor;
-        private System.Windows.Forms.Button btnConsultarProfessor;
-        private System.Windows.Forms.Button btnInserirProfessor;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button btnApagarFuncionario;
-        private System.Windows.Forms.Button btnInserirFuncionario;
-        private System.Windows.Forms.Button btnAlterarFuncionario;
-        private System.Windows.Forms.Button btnConsultarFuncionario;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button btnApagarSecretaria;
-        private System.Windows.Forms.Button btnInserirSecretaria;
-        private System.Windows.Forms.Button btnAlterarSecretaria;
-        private System.Windows.Forms.Button btnConsultarSecretaria;
-        private System.Windows.Forms.Button btnSair;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mENUPRINCIPALToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alunosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cadastrarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem apagarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem professoresToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inserirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem apagarToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem funcionáriosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inserirToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem apagarToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem secretariaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem inserirToolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem consultarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem alterarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem apagarToolStripMenuItem3;
+        private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
     }
 }
 
