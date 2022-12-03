@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ColegioEnsiNo
+namespace ColegioEnsiNo.PROFESSOR
 {
-    public partial class AlunoApagar : Form
+    public partial class ProfessorInserir : Form
     {
-        public AlunoApagar()
+        public ProfessorInserir()
         {
             InitializeComponent();
         }

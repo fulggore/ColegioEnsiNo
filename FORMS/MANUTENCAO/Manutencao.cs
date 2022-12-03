@@ -8,10 +8,13 @@ namespace escola
 {
     public class Manutencao : Pessoa
     {
+        private int id_funcionario;
         private String setor;
         private float salario;
         private DateTime dia_servico;
 
+        public int getId() { return id_funcionario; }
+        public void setId(int p_id) { id_funcionario = p_id; }
         public String getSetor() { return setor; }
         public void setSetor(String p_setor) { this.setor = p_setor; }
         public float getValor() { return salario; }

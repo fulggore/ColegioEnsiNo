@@ -1,7 +1,7 @@
 ﻿
 namespace ColegioEnsiNo
 {
-    partial class AlunoApagar
+    partial class frmAlunoAlterar
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,7 @@ namespace ColegioEnsiNo
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlunoAlterar));
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.txtBoletim = new System.Windows.Forms.TextBox();
@@ -48,73 +49,75 @@ namespace ColegioEnsiNo
             this.label3 = new System.Windows.Forms.Label();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(358, 211);
+            this.button2.Location = new System.Drawing.Point(353, 206);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 51;
-            this.button2.Text = "Apagar";
+            this.button2.TabIndex = 40;
+            this.button2.Text = "Alterar";
             this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(438, 211);
+            this.button1.Location = new System.Drawing.Point(433, 206);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 50;
+            this.button1.TabIndex = 39;
             this.button1.Text = "Sair";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // txtBoletim
             // 
-            this.txtBoletim.Location = new System.Drawing.Point(358, 155);
+            this.txtBoletim.Location = new System.Drawing.Point(353, 150);
             this.txtBoletim.Name = "txtBoletim";
             this.txtBoletim.Size = new System.Drawing.Size(155, 20);
-            this.txtBoletim.TabIndex = 48;
+            this.txtBoletim.TabIndex = 37;
             // 
             // txtAno
             // 
-            this.txtAno.Location = new System.Drawing.Point(358, 121);
+            this.txtAno.Location = new System.Drawing.Point(353, 116);
             this.txtAno.Name = "txtAno";
             this.txtAno.Size = new System.Drawing.Size(155, 20);
-            this.txtAno.TabIndex = 47;
+            this.txtAno.TabIndex = 36;
             // 
             // txtRgm
             // 
-            this.txtRgm.Location = new System.Drawing.Point(358, 87);
+            this.txtRgm.Location = new System.Drawing.Point(353, 82);
             this.txtRgm.Name = "txtRgm";
             this.txtRgm.Size = new System.Drawing.Size(155, 20);
-            this.txtRgm.TabIndex = 46;
+            this.txtRgm.TabIndex = 35;
             // 
             // lblAno
             // 
             this.lblAno.AutoSize = true;
-            this.lblAno.Location = new System.Drawing.Point(314, 124);
+            this.lblAno.Location = new System.Drawing.Point(309, 119);
             this.lblAno.Name = "lblAno";
             this.lblAno.Size = new System.Drawing.Size(29, 13);
-            this.lblAno.TabIndex = 45;
+            this.lblAno.TabIndex = 34;
             this.lblAno.Text = "Ano:";
             // 
             // lblIdBoletim
             // 
             this.lblIdBoletim.AutoSize = true;
-            this.lblIdBoletim.Location = new System.Drawing.Point(296, 158);
+            this.lblIdBoletim.Location = new System.Drawing.Point(291, 153);
             this.lblIdBoletim.Name = "lblIdBoletim";
             this.lblIdBoletim.Size = new System.Drawing.Size(56, 13);
-            this.lblIdBoletim.TabIndex = 44;
+            this.lblIdBoletim.TabIndex = 33;
             this.lblIdBoletim.Text = "Id Boletim:";
             // 
             // lblRgm
             // 
             this.lblRgm.AutoSize = true;
-            this.lblRgm.Location = new System.Drawing.Point(314, 90);
+            this.lblRgm.Location = new System.Drawing.Point(309, 85);
             this.lblRgm.Name = "lblRgm";
             this.lblRgm.Size = new System.Drawing.Size(35, 13);
-            this.lblRgm.TabIndex = 43;
+            this.lblRgm.TabIndex = 32;
             this.lblRgm.Text = "RGM:";
             // 
             // groupBox1
@@ -127,10 +130,10 @@ namespace ColegioEnsiNo
             this.groupBox1.Controls.Add(this.txtIdade);
             this.groupBox1.Controls.Add(this.lblIdade);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(27, 58);
+            this.groupBox1.Location = new System.Drawing.Point(22, 53);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(236, 136);
-            this.groupBox1.TabIndex = 42;
+            this.groupBox1.TabIndex = 31;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Dados Pessoais";
             // 
@@ -207,26 +210,35 @@ namespace ColegioEnsiNo
             // 
             this.lblTitulo.AutoSize = true;
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(23, 22);
+            this.lblTitulo.Location = new System.Drawing.Point(18, 17);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(118, 20);
-            this.lblTitulo.TabIndex = 41;
-            this.lblTitulo.Text = "Apagar Aluno";
+            this.lblTitulo.Size = new System.Drawing.Size(114, 20);
+            this.lblTitulo.TabIndex = 30;
+            this.lblTitulo.Text = "Alterar Aluno";
             // 
             // groupBox2
             // 
-            this.groupBox2.Location = new System.Drawing.Point(284, 58);
+            this.groupBox2.Location = new System.Drawing.Point(279, 53);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(252, 136);
-            this.groupBox2.TabIndex = 49;
+            this.groupBox2.TabIndex = 38;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Dados Acadêmicos";
             // 
-            // AlunoApagar
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(22, 251);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(509, 150);
+            this.dataGridView1.TabIndex = 41;
+            // 
+            // frmAlunoAlterar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(559, 413);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtBoletim);
@@ -238,10 +250,12 @@ namespace ColegioEnsiNo
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.groupBox2);
-            this.Name = "AlunoApagar";
-            this.Text = "Apagar Aluno";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "frmAlunoAlterar";
+            this.Text = "Alterar Aluno";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -268,5 +282,6 @@ namespace ColegioEnsiNo
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
