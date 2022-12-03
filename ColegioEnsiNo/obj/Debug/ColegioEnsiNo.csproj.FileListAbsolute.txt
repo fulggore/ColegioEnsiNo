@@ -1,0 +1,12 @@
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\bin\Debug\ColegioEnsiNo.exe.config
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\bin\Debug\ColegioEnsiNo.exe
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\bin\Debug\ColegioEnsiNo.pdb
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.csproj.AssemblyReference.cache
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.Menu.resources
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.Properties.Resources.resources
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.csproj.GenerateResource.cache
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.csproj.CoreCompileInputs.cache
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.exe
+C:\Users\alunocmc\Source\Repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.pdb
+C:\Users\alunocmc\source\repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.AlunoInserir.resources
+C:\Users\alunocmc\source\repos\ColegioEnsiNo\obj\Debug\ColegioEnsiNo.frmInserirAluno.resources

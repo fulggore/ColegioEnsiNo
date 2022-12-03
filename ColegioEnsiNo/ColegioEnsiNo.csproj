@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50FDC9B2-C1E7-46DF-BADC-E58444770CA3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ColegioEnsiNo</RootNamespace>
+    <AssemblyName>ColegioEnsiNo</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aluno.cs" />
+    <Compile Include="AlunoAlterar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlunoAlterar.Designer.cs">
+      <DependentUpon>AlunoAlterar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlunoApagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlunoApagar.Designer.cs">
+      <DependentUpon>AlunoApagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlunoConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlunoConsultar.Designer.cs">
+      <DependentUpon>AlunoConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AlunoInserir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlunoInserir.Designer.cs">
+      <DependentUpon>AlunoInserir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manutencao.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
+    <Compile Include="Pessoa.cs" />
+    <Compile Include="Professor.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secretaria.cs" />
+    <EmbeddedResource Include="AlunoAlterar.resx">
+      <DependentUpon>AlunoAlterar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlunoApagar.resx">
+      <DependentUpon>AlunoApagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlunoConsultar.resx">
+      <DependentUpon>AlunoConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlunoInserir.resx">
+      <DependentUpon>AlunoInserir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\master" />
+    <None Include=".git\logs\refs\heads\master-2" />
+    <None Include=".git\logs\refs\remotes\origin\EnsiNo.V0.01" />
+    <None Include=".git\logs\refs\remotes\origin\master" />
+    <None Include=".git\logs\refs\remotes\origin\master-2" />
+    <None Include=".git\objects\01\7943a56b8712e24ff90d0c2232d3214e980c82" />
+    <None Include=".git\objects\04\e727657438d4806a49944cab8296c439a0caaf" />
+    <None Include=".git\objects\06\f93078c7af6ceb8056f7d6587abf5c44444daf" />
+    <None Include=".git\objects\09\56fafe524dbccb939de359a03184e2134ef4c5" />
+    <None Include=".git\objects\0a\8c11ff3c59828c2f335075835e36d1e65936a7" />
+    <None Include=".git\objects\19\a48843edcf7608b3f0adf0dab8960ed6c58730" />
+    <None Include=".git\objects\30\91038dd29347a0104cd27cabb69a8761c054bd" />
+    <None Include=".git\objects\31\6f9b2605a6e77bff928c509800291875fae3fe" />
+    <None Include=".git\objects\42\4140fe5479a853edb1e78ec545df5c19a5fdb1" />
+    <None Include=".git\objects\42\ece7c71c3d6c884fb476ecb93138d25d5c6d10" />
+    <None Include=".git\objects\45\bed425f48212773f5c8c51a5087eef35865bdd" />
+    <None Include=".git\objects\4d\55997eeae0abfed5a0e5f2d78859c6cca4c195" />
+    <None Include=".git\objects\50\663e358290fd2bfa6ddb1aaad367764fcc1225" />
+    <None Include=".git\objects\67\1daa7a70d2b404ed755f1def8893b05044779b" />
+    <None Include=".git\objects\6f\3b92abbe8606fadb56e46f266a250803dd6a8d" />
+    <None Include=".git\objects\6f\e03edd748ab8e4058cb03d0af709b92d410667" />
+    <None Include=".git\objects\7c\e9b307710f3aaa86476b2e5e0ec13c938ea057" />
+    <None Include=".git\objects\9e\e0ecd251857e17d9ab3cbcb847682845707bd3" />
+    <None Include=".git\objects\a4\e96ab0457b8343a156c224622e475cb4486575" />
+    <None Include=".git\objects\a7\4f29f26754b802cb6f0c969fcaadd69bfa6770" />
+    <None Include=".git\objects\cb\eeb60ac008e368af5df5bd3ea058b36c80123f" />
+    <None Include=".git\objects\cc\5ac43e15bf2eaab562cbff4fd583ee9eb5e60e" />
+    <None Include=".git\objects\cd\9c5cf0b0608faf4d42a986b1ea287daa837b98" />
+    <None Include=".git\objects\ce\9ff1fcd3512fd79028a93776d67035d74e17ec" />
+    <None Include=".git\objects\e7\ad35c1ad6ea70121dd12057d2b58b9909354b7" />
+    <None Include=".git\objects\eb\c6081f29a669af7eacc0b090b0d9110a87bf7b" />
+    <None Include=".git\objects\fe\ff84ddf38257a41a5510c7c951423e2463e1ee" />
+    <None Include=".git\objects\pack\pack-7df1235350f91393e72400f5e4604a030e2359be.idx" />
+    <None Include=".git\objects\pack\pack-7df1235350f91393e72400f5e4604a030e2359be.pack" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\master" />
+    <None Include=".git\refs\heads\master-2" />
+    <None Include=".git\refs\remotes\origin\EnsiNo.V0.01" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\master" />
+    <None Include=".git\refs\remotes\origin\master-2" />
+    <None Include=".vs\ColegioEnsiNo\FileContentIndex\3e72467a-6444-47ee-acd0-de1233f2ff7a.vsidx" />
+    <None Include=".vs\ColegioEnsiNo\FileContentIndex\496f14c9-e049-410d-ba4a-dd694e81d5f4.vsidx" />
+    <None Include=".vs\ColegioEnsiNo\FileContentIndex\70ceb664-869f-412a-ade2-a2b65eee3b84.vsidx" />
+    <None Include=".vs\ColegioEnsiNo\FileContentIndex\f6162c67-9055-4907-adac-facd201a181c.vsidx" />
+    <None Include=".vs\ColegioEnsiNo\FileContentIndex\read.lock" />
+    <None Include=".vs\ColegioEnsiNo\v16\.suo" />
+    <None Include=".vs\ProjectSettings.json" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="bin\Debug\ColegioEnsiNo.exe.config" />
+    <None Include="obj\Release\ColegioEnsiNo.csproj.AssemblyReference.cache" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="bin\Debug\ColegioEnsiNo.exe" />
+    <Content Include="bin\Debug\ColegioEnsiNo.pdb" />
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include=".vs\ColegioEnsiNo\FileContentIndex\merges\" />
+    <Folder Include=".vs\ColegioEnsiNo\v17\" />
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
